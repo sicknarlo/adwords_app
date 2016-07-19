@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '4.2.5'
 gem 'jquery-rails'
 gem 'activerecord-session_store'
+gem 'pg'
 
 # Using sqlite by default.
 group :development, :test do
