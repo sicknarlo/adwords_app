@@ -1114,3 +1114,44 @@ Started GET "/home/index" for ::1 at 2016-07-14 12:59:22 -0500
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for ::1 at 2016-07-19 12:51:45 -0500
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login/prompt
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login/prompt" for ::1 at 2016-07-19 12:51:48 -0500
+Processing by LoginController#prompt as HTML
+  Rendered login/prompt.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 902ms (Views: 579.4ms | ActiveRecord: 54.0ms)
+
+
+Started GET "/assets/application.self-f8894798ead0b588ad373052fcad2893a72a4800d77454a074bce8417f4e4992.css?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/global.self-7d6b74e5a0173d948a783be5f13131379561f298e24c2744dccdfc6601ae5f17.css?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/campaign.self-a6165d1e29f750aa8064ab3752d4bc9f274c29609618a27bc4ff7880b4f3f871.css?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/report.self-38cbe750a869223a4fa6aedc58f846e3ea33daf53b92660d9754869afdef2fb8.css?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/campaign.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/report.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-07-19 12:51:49 -0500
+
+
+Started GET "/assets/application.self-ac4347b135ab8935f2dd20089f2acc8bec1d6b2ad528a80fcb03cd445dbd4d27.js?body=1" for ::1 at 2016-07-19 12:51:49 -0500
